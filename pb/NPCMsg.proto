@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+package NPCClient;
+
+enum E_SVR_MSG_ID {
+  E_SVR_MSG_ID_NONE = 0;   // None
+  E_SVR_MSG_ID_HELLO = 1;  // 心跳 [THelloReq|THelloRsp]
+};
+
+message NPCMsg {
+    int32 iMsgID = 1;         //消息ID
+    bytes vecMsgBody = 2;    //消息体
+}
+
+message THelloReq {
+  int64 iClientTime = 1;  // 客户端时间戳(ms)
+}
+
+message THelloRsp {
+  int32 iRet = 1;         // 返回码
+  int64 iClientTime = 2;  // 客户端时间戳
+  int64 iServerTime = 3;  // 后台时间戳
+}
