@@ -45,8 +45,12 @@ export class TS_SubExtension extends TS_BaseExtension
     Sub2: string | undefined;
 }
 
-let Base = new TS_BaseExtension();
-let Sub = new TS_SubExtension();
 
-Base.ToString();
-Sub.ToString();
+export function TestDecorator(): void
+{
+    let Base = new TS_BaseExtension();
+    let Sub = new TS_SubExtension();
+    Base.ToString();
+    Sub.ToString();
+}
+

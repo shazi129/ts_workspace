@@ -1,0 +1,25 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "ttsc watch - tsconfig",
+			"type": "shell",
+			"group": "build",
+			"command": "npx ttsc -w",
+			"problemMatcher": [
+				"$tsc-watch"
+			],
+			"detail": "ttypescript build whole project"
+		},
+		{
+			"label": "ttsc build - tsconfig",
+			"type": "shell",
+			"group": "build",
+			"command": "npx ttsc",
+			"problemMatcher": [
+				"$tsc"
+			],
+			"detail": "ttypescript build whole project"
+		}
+	]
+}

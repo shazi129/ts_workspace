@@ -1,1 +1,5 @@
-console.log("Hello World")
+console.log("Hello world");
+
+//import { TestDecorator } from './decorator/ClassDecorator';
+
+//TestDecorator()
