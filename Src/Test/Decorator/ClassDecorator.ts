@@ -15,7 +15,6 @@ export class TS_UserWidgetExtension
     }
 }
 
-
 export function BindWidget(WidgetName: string, ExtensionName: string = ""): PropertyDecorator {
     return (target, propKey) => {
         if (target instanceof TS_UserWidgetExtension) {
