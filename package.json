@@ -1,0 +1,19 @@
+{
+  "name": "ts_workspace",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shazi129/ts_workspace.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shazi129/ts_workspace/issues"
+  },
+  "homepage": "https://github.com/shazi129/ts_workspace#readme",
+  "description": ""
+}
