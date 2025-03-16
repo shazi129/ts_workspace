@@ -1,1 +1,3 @@
-console.log("hello world!!!");
+import { TestDecorator } from "./Test/Decorator/ClassDecorator";
+
+TestDecorator()

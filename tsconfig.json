@@ -2,11 +2,18 @@
   "compilerOptions": {
     /* Visit https://aka.ms/tsconfig to read more about this file */
 
+    //重定向源码和输出目录
     "outDir": "./Out", 
-    "rootDir": "./Src",  
+    "rootDir": "./Src",
+
+    //Debug配置
     "sourceMap": true, 
     "allowJs": true,
-    
+
+    //可以使用装饰器
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,   
+
     /* Projects */
     // "incremental": true,                              /* Save .tsbuildinfo files to allow for incremental compilation of projects. */
     // "composite": true,                                /* Enable constraints that allow a TypeScript project to be used with project references. */
